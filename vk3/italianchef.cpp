@@ -24,7 +24,7 @@ bool ItalianChef::askSecret(string pw, int amountOfWater, int amountOfFlour)
     water = amountOfWater;
     flour = amountOfFlour;
     numberOfPizzas = makePizza();
-    cout << "saatiin tehtya: " << numberOfPizzas << "pizzaa" << endl;
+    cout << "saatiin tehtya: " << numberOfPizzas << " pizzaa" << endl;
     return true;
 }
 
